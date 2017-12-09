@@ -1,0 +1,15 @@
+Práctica Completa con parte avanzada.
+
+Para el correcto funcionamiento del script 
+check.sh es necesario que se ejecute este 
+script dentro de la carpeta FUSE_myFS con el 
+sistema de archivos ya montado sobre la ruta mount-point.
+
+Hace falta descargar la librería LIBFUSE y 
+añadirla al grupo/usuario delñ SO/Máquina Virtual:
+    Instalar paquete libfuse-dev y añadir el usuario al grupo fuse 
+    (como root y después logout para que surta efecto). En la máquina
+    virtual sería (aunque ya está hecho):
+    $ sudo apt-get install libfuse-dev
+    $ sudo adduser usuarioso fuse
+    
